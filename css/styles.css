@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+}
+header {
+  line-height: 1.17;
+  height: 80px;
+  padding-left: 215px;
+}
+.menu-nav {
+  width: 285px;
+  margin: 32px 340px 32px 93px;
+  word-spacing: 63px;
+}
+.nav-list-item {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-list-item:hover {
+  color: #2196f3;
+}
+.logo {
+  text-decoration: none;
+  color: #2196f3;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  margin: 24px 97px 25px 0;
+}
+header {
+  display: flex;
+}
+.header-mail {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 32px 50px 32px 0;
+}
+.header-mail:hover {
+  color: #2196f3;
+}
+.header-tel {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 32px 0 32px 0;
+}
+.header-tel:hover {
+  color: #2196f3;
+}
+
+.footer {
+  height: 252px;
+  padding-left: 215px;
+  padding-top: 60px;
+  background-color: #2f303a;
+  line-height: 1.17;
+}
+.address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 231px;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address a {
+  text-decoration: none;
+  color: #ffffff99;
+}
