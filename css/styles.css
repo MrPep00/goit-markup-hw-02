@@ -2,10 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   width: 1600px;
 }
-header {
+.header {
   line-height: 1.17;
   height: 80px;
   padding-left: 215px;
+  display: flex;
 }
 .menu-nav {
   width: 285px;
@@ -29,9 +30,6 @@ header {
   font-weight: 700;
   margin: 24px 97px 25px 0;
 }
-header {
-  display: flex;
-}
 .header-mail {
   text-decoration: none;
   color: black;
@@ -52,6 +50,121 @@ header {
 .header-tel:hover {
   color: #2196f3;
 }
+/*
+
+main page styles
+
+*/
+.title {
+  background: #2f303a;
+}
+.title h1 {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  max-width: 696px;
+  text-align: center;
+  padding: 200px 452px 30px 452px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.buttons {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  cursor: pointer;
+  margin-left: 700px;
+  margin-bottom: 200px;
+  padding: 6px 26px;
+  border: none;
+  border-radius: 4px;
+  max-width: fit-content;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.benefits {
+  margin: 94px 215px 100px 215px;
+  text-align: left;
+}
+.benefits ul {
+  display: flex;
+  list-style-type: none;
+  max-width: 1170px;
+}
+.benefits h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.benefits li {
+  font-size: 14px;
+  line-height: 1.71;
+  max-width: 270px;
+  padding-right: 30px;
+}
+.offers {
+  text-align: center;
+}
+.offers h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+}
+
+.offers ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 215px;
+}
+.offers li {
+  margin-right: 30px;
+}
+
+/*
+
+portfolio styles
+
+*/
+.filters {
+  display: flex;
+  margin: 94px 494px 34px 495px;
+  max-width: fit-content;
+  list-style-type: none;
+}
+.filters .buttons {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0px 8px;
+  background-color: #f5f4fa;
+  color: black;
+  text-transform: capitalize;
+}
+.filters .buttons:hover,
+.buttons:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.projects {
+  display: flex;
+}
+/*
+
+portfolio styles
+
+*/
 
 .footer {
   height: 252px;
