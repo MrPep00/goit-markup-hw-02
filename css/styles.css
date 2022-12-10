@@ -1,43 +1,54 @@
+:root {
+  --background-color: #2f303a;
+  --button-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --button-text-color: #ffffff;
+  --secondary-background: #f5f4fa;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  width: 1600px;
 }
 .header {
   line-height: 1.17;
 }
 .nav-list-item {
   text-decoration: none;
-  color: black;
+  color: var(--main-text-color);
   font-size: 14px;
   font-weight: 500;
 }
 .nav-list-item:hover {
-  color: #2196f3;
+  color: var(--button-color);
 }
 .logo {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--button-color);
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
 }
 .header-mail {
   text-decoration: none;
-  color: black;
+  color: var(--main-text-color);
   font-size: 14px;
   font-weight: 500;
 }
 .header-mail:hover {
-  color: #2196f3;
+  color: var(--button-color);
 }
 .header-tel {
   text-decoration: none;
-  color: black;
+  color: var(--main-text-color);
   font-size: 14px;
   font-weight: 500;
 }
 .header-tel:hover {
-  color: #2196f3;
+  color: var(--button-color);
+}
+.list {
+  list-style-type: none;
 }
 /*
 
@@ -45,16 +56,16 @@ main page styles
 
 */
 .title {
-  background: #2f303a;
+  background: var(--background-color);
 }
-.title h1 {
+.title-headers {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
 
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--button-text-color);
 }
 .buttons {
   font-size: 16px;
@@ -63,52 +74,54 @@ main page styles
   letter-spacing: 0.06em;
 
   cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
 }
 .benefits {
   text-align: left;
 }
-.benefits h3 {
+.benefits-list-item-name {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
 }
-.benefits li {
+.benefits-list-item {
   font-size: 14px;
   line-height: 1.71;
 }
-.offers h2 {
+.offers-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .team {
-  background: #f5f4fa;
+  background: var(--secondary-background);
 }
-.team h2 {
+.team-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.team-member-name h3 {
+.team-member-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--main-text-color);
+  text-transform: capitalize;
 }
-.team-member-name p {
+.team-member-job {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
+  text-transform: capitalize;
 }
 
 /*
@@ -116,19 +129,19 @@ main page styles
 portfolio styles
 
 */
-.filters .buttons {
+.filters-list-button {
   font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
-  background-color: #f5f4fa;
-  color: black;
+  background-color: var(--secondary-background);
+  color: var(--main-text-color);
   text-transform: capitalize;
 }
-.filters .buttons:hover,
-.buttons:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+.filters-list-button:hover,
+.filters-list-button:focus {
+  background-color: var(--button-color);
+  color: var(--button-text-color);
 }
 .project-name {
   text-transform: capitalize;
@@ -144,7 +157,7 @@ portfolio styles
   font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .project-list-item span {
   text-transform: lowercase;
@@ -156,18 +169,18 @@ portfolio styles
 */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color);
   line-height: 1.17;
 }
-.address {
+.footer-address {
   font-style: normal;
   display: flex;
   flex-direction: column;
-  color: #ffffff;
+  color: var(--button-text-color);
   font-size: 14px;
   line-height: 1.71;
 }
-.address a {
+.footer-adddres-anchor {
   text-decoration: none;
-  color: #ffffff99;
+  --button-text-color: #ffffff99;
 }
