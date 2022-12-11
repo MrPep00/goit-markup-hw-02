@@ -24,14 +24,17 @@ body {
 }
 .logo {
   text-decoration: none;
-  color: var(--button-color);
+  color: var(--main-text-color);
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
 }
+.logo-span {
+  color: var(--button-color);
+}
 .header-mail {
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--secondary-text-color);
   font-size: 14px;
   font-weight: 500;
 }
@@ -40,7 +43,7 @@ body {
 }
 .header-tel {
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--secondary-text-color);
   font-size: 14px;
   font-weight: 500;
 }
@@ -58,7 +61,7 @@ main page styles
 .title {
   background: var(--background-color);
 }
-.title-headers {
+.title-header {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -85,8 +88,10 @@ main page styles
   font-size: 14px;
   line-height: 1.17;
   text-transform: uppercase;
+  color: var(--main-text-color);
 }
-.benefits-list-item {
+.benefits-list-item-description {
+  color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -175,6 +180,9 @@ portfolio styles
   background-color: var(--background-color);
   line-height: 1.17;
 }
+.footer-logo {
+  color: var(--button-text-color);
+}
 .footer-address {
   font-style: normal;
   display: flex;
@@ -185,5 +193,5 @@ portfolio styles
 }
 .footer-adddres-anchor {
   text-decoration: none;
-  --button-text-color: #ffffff99;
+  color: #ffffff99;
 }
